@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&family=Roboto+Mono:ital,wght@1,600&display=swap');
+@import url('https://css.gg/push-chevron-right.css');
+
+body {
+    margin: 0;
+    background-image: url(bg-pattern-desktop.svg);
+    background-repeat: repeat-x;
+    background-size: 60%;
+    background-color: rgba(255, 224, 246, 0.63);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-wrap: wrap-reverse;
+}
+
+#left {
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 100vh;
+    margin-bottom: 0;
+}
+#logo {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 4rem;
+}
+
+span {
+    color: rgba(143, 33, 88, 0.74) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 10px;
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 17px;
+    color: rgba(0, 0, 0, 0.637);
+    
+}
+
+p {
+    max-width: 700px;
+    font-size: 20px;
+    line-height: 35px;
+    color: rgb(235, 163, 219);
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 5rem;
+}
+
+form {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#em {
+    width: 80%;
+    height: 3rem;
+    padding: 5px 20px;
+    border-color: rgba(255, 0, 170, 0.253);
+    border-radius: 50px;
+    background-color: rgb(255, 210, 244);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#submit {
+     background: none;
+     font-size: 0;
+     width: 110px;
+     height: 4rem;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     background-color: rgb(255, 195, 225);
+     border: none;
+     border-radius: 40px;
+     margin-left: -50px;
+     box-shadow: 5px 10px 10px rgb(223, 129, 176);
+}
+
+#submit:hover {
+    background-color: white;
+    color: rgb(255, 195, 225);
+}
+
+#img {
+    margin-right: 0;
+    width: 40%;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    color: rgb(255, 0, 200);
+}
+
+
+@media only screen and (max-width: 1400px) {
+    body {
+        background-image: url(bg-pattern-desktop.svg);
+        background-size: cover;
+        background-color: rgba(255, 224, 246, 0.63);
+    }
+    #left {
+        margin-left: 0;
+        margin-top: 5%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    #logo {
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        margin-bottom: 4rem;
+        
+    }
+    h1 {
+        font-size: 3rem;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: 10px;
+        color: rgba(0, 0, 0, 0.637);
+        
+    }
+    
+    p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        margin: 3rem;
+    }
+    form {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20%;
+}
+    #img {
+        margin-right: 0;
+        width: 100%;
+        opacity: 40%;
+}
+}
